@@ -32,3 +32,11 @@ We use `hbseong/HarmAug-Guard` as a judge model to classify whether the generate
 # Evaluation
 
 The evaluation task is to verify the strength of jailbreak prompts to make the victim model vulnerable to generate a corresponding output bypassing its safety alignment capabilities. For thiis purpose, we utilized the `Attack Success Rate (ASR)` metric which quantifies the percentage of successful jailbreak attempts.
+
+
+# Models Experimented
+
+[1] Qwen/Qwen2.5-1.5B-Instruct: https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct <br>
+[2] OpenSafetyLab/MD-Judge-v0_2-internlm2_7b: https://huggingface.co/OpenSafetyLab/MD-Judge-v0_2-internlm2_7b <br>
+[3] ARahul2003/lamini_flan_t5_detoxify_rlaif: https://huggingface.co/ARahul2003/lamini_flan_t5_detoxify_rlaif <br>
+[4] openai-community/gpt2: https://huggingface.co/openai-community/gpt2 <br>
